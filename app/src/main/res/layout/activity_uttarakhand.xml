@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".uttarakhand"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:elevation="50dp"
+        android:src="@drawable/uk"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/white_rect"
+        android:elevation="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uttarakhand"
+        android:fontFamily="@font/playfair"
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tour Packages"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/mmt"
+        android:layout_height="wrap_content"
+        android:text="1. MakeMyTrip"
+        android:textSize="20sp"
+        android:textColor="#eb2226"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/tc"
+        android:layout_height="wrap_content"
+        android:text="2. Thomas Cook"
+        android:textSize="20sp"
+        android:textColor="#0a4e9d"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/th"
+        android:layout_height="wrap_content"
+        android:text="3. Thirllophilia"
+        android:textSize="20sp"
+        android:textColor="#f37426"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tm"
+        android:gravity="center"
+        android:text="4. Uttarakhand Tourism"
+        android:textSize="20sp"
+        android:textColor="#f37426"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="**Click on the name to book**"
+        android:layout_marginTop="100dp"/>
+
+</LinearLayout>
